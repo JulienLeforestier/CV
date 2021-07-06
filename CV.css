@@ -1,6 +1,7 @@
 body
 {
-    background : url("080613212710.jpg") fixed;
+    background : url("fond.jpg");
+	background-size: cover;
 }
 
 strong
