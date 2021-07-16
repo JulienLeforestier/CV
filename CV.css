@@ -29,7 +29,7 @@ h1
 h2
 {
 	font-size : 2em; 
-	font-family : "Impact", serif;
+	font-family : "Comic Sans MS", serif;
 	background-color : #0000CD;
     color : white;
     padding : 8px;
@@ -62,7 +62,6 @@ ul
 
 p
 {
-	color : white;
 	margin : 50px;
 }
 
@@ -74,7 +73,6 @@ a:hover
 footer
 {
 	font-size : 1.5em; 
-	color : white;
 	text-align : center;
     margin : 50px;	
 }
