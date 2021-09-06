@@ -1,51 +1,38 @@
-body
-{
+body{
     background : url("fond.jpg");
 	background-size: cover;
 }
-
-strong
-{
+strong{
 	font-size : 2em; 
 	font-family : "Times New Roman", serif;
 	font-weight : bold;
 }
-
-.imageflottante
-{
+.imageflottante{
 	float : right;
 	border-radius : 90px;
 }
-
-h1 
-{
+h1 {
 	color : #0000CD;
 	font-size : 3.5em;
-	font-family : "Comic Sans MS", "Arial Black", "Times New Roman", serif;
+	font-family : "Georgia", "Times New Roman", serif;
 	text-align : center;
 	padding : 12px;
 }
-
-h2
-{
+h2{
 	font-size : 2em; 
-	font-family : "Comic Sans MS", serif;
+	font-family : "Georgia", "Times New Roman", serif;
 	background-color : #0000CD;
     color : white;
     padding : 8px;
     box-shadow : 4px 4px 4px #D3D3D3;
 }
-
-ul
-{
+ul{
 	background-color: #D3D3D3;
 	padding : 8px;
 	padding-left : 24px;
 	box-shadow : 4px 4px 4px #0000CD;
 }
-
-#conteneur
-{
+#conteneur{
     display : flex;
 /*    
 	flex-direction : row;
@@ -54,42 +41,29 @@ ul
     align-items : center;
 */
 }
-
-.element
-{
+.element{
     margin: auto;
 }
-
-p
-{
+p{
 	margin : 50px;
 }
-
-a:hover
-{
+a:hover{
   	color : purple;
 }
-
-footer
-{
+footer{
 	font-size : 1.5em; 
 	text-align : center;
     margin : 50px;	
 }
-
-@media all and (max-width : 1680px)
-{
-	#conteneur
-	{
+@media all and (max-width : 1680px){
+	#conteneur{
 	    display : flex;    
 		flex-direction : column;
 		flex-wrap : nowrap;
 	    justify-content : space-around;
 	    align-items : center;
 	}
-
-	.element
-	{
+	.element{
 	    margin: auto;
 	}
 }
